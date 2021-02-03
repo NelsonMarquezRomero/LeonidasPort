@@ -146,3 +146,75 @@ h2{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
 }
+
+/*Reglas css que aplican a los eventos*/
+
+.events{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.event{
+    width: 478px;
+    border: 1px solid#e0e0e0;
+    border-radius:3px;
+    box-shadow: 5px 5px 5px #c9c9c9;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: lightcyan;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.event-image{
+    object-fit: cover;
+}
+
+.event-details{
+    width: 336px;
+    margin-left:72px;
+    margin-right: 72px;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 15px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.event-title{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.event-description{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: grey;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.event-link{
+    border: 1px solid #0868F9;
+    border-radius: 10px;
+    padding: 5px 60px;
+    margin: 15px auto;
+    color: #0868F9;
+    font-family: 'source Sans Pro', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+}
