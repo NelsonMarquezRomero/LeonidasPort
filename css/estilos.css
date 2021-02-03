@@ -80,3 +80,69 @@ h1 strong{
     width: 514px;
     height: 300px;
 }
+
+/*Reglas que aplican al portafolio de proyectos*/
+
+h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    color: #0868F9;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 30px 0px 30px 30px;
+}
+
+.project{
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    box-shadow: 6px 6px 10px #c9c9c9;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.project-detail{
+    margin-left: 20px ;
+    margin-top: 20px;
+}
+
+.project-title{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.project-subtitle{
+    color: gray;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+.project-date , .project-link{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 16px;
+    margin: 5px 0px;
+}
+
+.project-date strong, .project-link {
+    color: #000000;
+}
+
+.project-link{
+    margin-bottom: 20px;
+}
+
+.project-link a {
+    color: gray;
+    font-size: 15px;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 600;
+}
+
+.project-description{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
