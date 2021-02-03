@@ -218,3 +218,96 @@ h2{
     text-decoration: none;
     font-weight: 600;
 }
+
+/* Reglas que aplican a la seccion de contacto*/
+
+.contact{
+    background-color: #0868F9;
+    color: white;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+    flex-direction: row;
+
+}
+
+.contact-tittle{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.form-email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width: 350px;
+    height: 30px;
+    padding: 5px 20px 5px 25px;
+    border: 1px solid #201e1e;
+    border-radius: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    background-image: url(../images/envelope.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 120px;
+    background-size: 15px 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #0868F9;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: white;
+    margin: 15px 0 15px 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+.social-nets{
+    display: inline;
+    display: flex;
+}
+
+.social-link{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.social-link.twiter{
+    background-image: url('../images/twitter.svg');
+    background-size: 50px 50px;
+}
+
+.social-link.facebook{
+    background-image: url('../images/facebook.svg');
+    background-size: 50px 50px;
+}
+
+.social-link.github{
+    background-image: url('../images/github.svg');
+    background-size: 50px 50px;
+}
+
+.social-link.instagram{
+    background-image: url('../images/instagram.svg');
+    background-size: 50px 50px;
+}
