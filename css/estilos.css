@@ -1,0 +1,17 @@
+/*Reglas globales*/
+
+*{
+    margin: 0px;
+}
+
+.container{
+    width: 1000px;
+    height: inherit;
+    background-color: inherit;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    margin: 0 auto;
+    flex-direction: inherit;
+    flex-wrap: inherit;
+}
