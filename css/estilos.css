@@ -15,3 +15,39 @@
     flex-direction: inherit;
     flex-wrap: inherit;
 }
+
+/*Reglas que aplican al header*/
+
+header{
+    height: 70px;
+    background-color: #11242E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 40px 40px 40px #ffffff;
+}
+
+.menu ul{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+}
+
+.link{
+    margin: 0px 20px;
+}
+
+.link a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.link-b{
+    border: 1px solid #ffffff;
+    padding: 5px 30px;
+    border-radius: 2px;
+}
