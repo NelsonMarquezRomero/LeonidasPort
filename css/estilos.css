@@ -51,3 +51,32 @@ header{
     padding: 5px 30px;
     border-radius: 2px;
 }
+
+/*Reglas que aplican al hero*/
+
+.hero{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F262A;
+    height: 297px;
+}
+
+h1{
+    color: #ffffff;
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 40px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+h1 strong{
+    color: #0868F9;
+}
+
+.hero-image{
+    object-fit: cover;
+    width: 514px;
+    height: 300px;
+}
