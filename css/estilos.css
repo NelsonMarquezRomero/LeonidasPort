@@ -311,3 +311,34 @@ button{
     background-image: url('../images/instagram.svg');
     background-size: 50px 50px;
 }
+
+/* Reglas css que aplican al footer*/
+
+footer{
+    height: 70px;
+    background-color: #11242E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer .platzi-image{
+    vertical-align: middle;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.course{
+    margin-right: 10px;
+
+}
+
+.designer a{
+    color: white;
+}
