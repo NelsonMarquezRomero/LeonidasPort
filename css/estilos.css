@@ -6,6 +6,7 @@
 
 .container{
     max-width: 1000px;
+    width: 100%;
     height: inherit;
     background-color: inherit;
     display: inherit;
@@ -48,11 +49,12 @@ header{
     font-size: 18px;
 }
 
-.link-b{
+/*.link-b{
     border: 1px solid #ffffff;
     padding: 5px 30px;
     border-radius: 2px;
-}
+    
+}*/
 
 /*Reglas que aplican al hero*/
 
@@ -354,7 +356,26 @@ footer .platzi-image{
 
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
+
+    header{
+        display: block;
+        height: auto;
+    }
+
+    .menu ul{
+        display: block;
+    }
+
+    .link{
+      height: 50px; 
+      text-align: center;
+    }
+
+    .header-logo{
+        text-align: center;
+        padding-left: 30px;
+    }
     
 }
 
