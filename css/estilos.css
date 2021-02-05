@@ -113,7 +113,7 @@ h2{
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 50%;
+    width: 45%;
     display: flex;
     flex-direction: column;
 }
@@ -160,7 +160,7 @@ h2{
 }
 
 .project-image{
-    width: 40%;
+    width: 45%;
     object-fit: contain;
 }
 
@@ -387,16 +387,7 @@ footer .platzi-image{
 
     .header-logo{
         text-align: center;
-    }
-
-    /* Reglas que aplican al portafolio*/
-
-    /*.project{
-        margin-left: 2%;
-        margin-right: 2%;
-        width: 96%;
-    }*/
-    
+    }  
 }
 
 @media screen and (max-width:480px){
