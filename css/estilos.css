@@ -101,11 +101,19 @@ h2{
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
+    padding: 2% 2% 2% 2%;
+    padding-right: 5%;
 }
 
 .project-detail{
-    margin-left: 20px ;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-title{
@@ -146,7 +154,14 @@ h2{
 .project-description{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
+    height: auto;
 }
+
+.project-image{
+    width: 44%;
+    object-fit: contain;
+}
+
 
 /*Reglas css que aplican a los eventos*/
 
@@ -352,6 +367,7 @@ footer .platzi-image{
 }
 
 @media screen and (max-width:767px){
+    /* Reglas CSS que aplican al header*/
 
     header{
         display: block;
@@ -370,11 +386,35 @@ footer .platzi-image{
     .header-logo{
         text-align: center;
     }
+
+    /* Reglas que aplican al portafolio*/
+
+    /*.project{
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }*/
     
 }
 
 @media screen and (max-width:480px){
-    
+    /*Reglas CSS que aplican al portafolio de proyectos*/
+
+    .project{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .project-detail{
+        width: 100%;
+        height: auto;
+    }
+
+    .project-image{
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:320px){
