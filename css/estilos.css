@@ -5,7 +5,7 @@
 }
 
 .container{
-    max-width: 1000px;
+    max-width: 1024px;
     width: 100%;
     height: inherit;
     background-color: inherit;
@@ -96,14 +96,16 @@ h2{
     border: 1px solid #e0e0e0;
     border-radius: 3px;
     box-shadow: 6px 6px 10px #c9c9c9;
-    margin: 20px auto;
+    margin-bottom: 2%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
-    padding: 2% 2% 2% 2%;
-    padding-right: 5%;
+    max-width: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
 
 .project-detail{
@@ -158,7 +160,7 @@ h2{
 }
 
 .project-image{
-    width: 44%;
+    width: 40%;
     object-fit: contain;
 }
 
@@ -407,7 +409,7 @@ footer .platzi-image{
     }
 
     .project-detail{
-        width: 100%;
+        width: 90%;
         height: auto;
     }
 
