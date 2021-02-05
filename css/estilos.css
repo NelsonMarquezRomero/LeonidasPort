@@ -160,7 +160,7 @@ h2{
 }
 
 .project-image{
-    width: 40%;
+    width: 44%;
     object-fit: contain;
 }
 
@@ -417,8 +417,12 @@ footer .platzi-image{
         width: 100%;
         text-align: center;
     }
+
+    h2{
+        font-size: 24px;
+    } 
 }
 
 @media screen and (max-width:320px){
-    
+   
 }
