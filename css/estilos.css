@@ -169,13 +169,13 @@ h2{
 
 .events{
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .event{
-    width: 478px;
+    width: 47%;
     border: 1px solid#e0e0e0;
     border-radius:3px;
     box-shadow: 5px 5px 5px #c9c9c9;
@@ -194,9 +194,7 @@ h2{
 }
 
 .event-details{
-    width: 336px;
-    margin-left:72px;
-    margin-right: 72px;
+    width: 80%;
     border: 1px solid white;
     border-radius: 3px;
     padding: 15px;
@@ -207,8 +205,8 @@ h2{
     align-items: center;
     margin-top: -40px;
     position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
     margin-bottom: 20px;
 }
 
@@ -387,7 +385,22 @@ footer .platzi-image{
 
     .header-logo{
         text-align: center;
-    }  
+    }
+
+    /* Reglas que aplican a la sección de eventos*/
+
+    .events{
+        justify-content: space-between;
+    }
+
+    .event{
+        width: 47%;
+    }
+
+    .event-detail{
+        padding: 0%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width:480px){
@@ -396,7 +409,6 @@ footer .platzi-image{
     .project{
         display: flex;
         flex-direction: column;
-        height: auto;
     }
 
     .project-detail{
@@ -411,9 +423,28 @@ footer .platzi-image{
 
     h2{
         font-size: 24px;
-    } 
+    }
+
+    /* Reglas que aplican a la sección de eventos*/
+
+    .events{
+        justify-content: center;
+    }
+
+    .event{
+        width: 90%;
+    }
 }
 
 @media screen and (max-width:320px){
-   
+   /* Reglas que aplican a la sección de eventos*/
+
+   .event{
+       width: 90%;
+       height: auto;
+   }
+
+   .event-description{
+       width: 70%;
+   }
 }
