@@ -398,6 +398,10 @@ footer .platzi-image{
         margin: 1% 1% 1% 1%;
     }
 
+    .event-image{
+        height: auto;
+    }
+
     .event-detail{
         padding: 0%;
         height: auto;
