@@ -483,8 +483,13 @@ footer .platzi-image{
         align-items: center;
     }
 
+    .course{
+        margin-left: 0;
+    }
+
     .designer{
         margin-bottom: 10px;
+        margin-right: 0;
     }
 }
 
