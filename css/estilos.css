@@ -331,7 +331,7 @@ button{
 /* Reglas css que aplican al footer*/
 
 footer{
-    height: 70px;
+    height: auto;
     background-color: #11242E;
     display: flex;
     justify-content: space-between;
@@ -352,8 +352,12 @@ footer .platzi-image{
 }
 
 .course{
-    margin-right: 10px;
+    margin-left: 10px;
 
+}
+
+.designer{
+    margin-right: 10px;
 }
 
 .designer a{
@@ -460,6 +464,17 @@ footer .platzi-image{
     .event{
         width: 90%;
     }
+
+    /* Reglas que aplican al footer*/
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .designer{
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width:320px){
@@ -520,5 +535,16 @@ footer .platzi-image{
 
     .social-link.github{
         background-size: 40px 40px;
+    }
+
+    /* Reglas que aplican al footer*/
+
+    .course{
+        margin-bottom: 10px;
+    }
+
+    .course-image{
+        width: 20%;
+        height: auto;
     }
 }
