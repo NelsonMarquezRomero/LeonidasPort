@@ -59,7 +59,8 @@ header{
     align-items: center;
     flex-wrap: wrap;
     background-color: #1F262A;
-    height: 297px;
+    height: auto;
+    flex-direction: row;
 }
 
 h1{
@@ -77,8 +78,7 @@ h1 strong{
 
 .hero-image{
     object-fit: cover;
-    width: 100%;
-    height: 300px;
+    width: 500px;
 }
 
 /*Reglas que aplican al portafolio de proyectos*/
@@ -370,6 +370,19 @@ footer .platzi-image{
 
 }
 
+@media screen and (max-width:768px){
+    /* Reglas que aplican al hero*/
+
+    h1{
+        width:48%;
+        margin-left: 2%;
+    }
+
+    .hero-image{
+        width: 48%;
+    }
+}
+
 @media screen and (max-width:767px){
     /* Reglas CSS que aplican al header*/
 
@@ -460,6 +473,24 @@ footer .platzi-image{
 }
 
 @media screen and (max-width:480px){
+    /* Reglas que aplican a la sección de hero*/
+
+    .hero{
+        position: relative;
+    }
+
+    h1{
+        z-index: 1;
+    }
+
+    .hero-image{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        z-index: 0;
+    }
+
     /*Reglas CSS que aplican al portafolio de proyectos*/
 
     .project{
@@ -576,12 +607,25 @@ footer .platzi-image{
 
     .course{
         margin-bottom: 10px;
+        margin-left: 10%;
     }
 
     .course-image{
         width: 20%;
         height: auto;
         margin-bottom: 10px;
-        margin-left: 5px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:320px){
+    /* Reglas que aplican al footer*/
+    
+    .course{
+        margin-left: 3%;
+    }
+
+    .course-image{
+        margin-left: 4px;
     }
 }
