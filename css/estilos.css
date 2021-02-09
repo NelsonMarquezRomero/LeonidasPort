@@ -240,14 +240,14 @@ h2{
 .contact{
     background-color: #0868F9;
     color: white;
-    height: 120px;
+    height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 30px 30px;
-
+    width: device-width;
 }
 
 .contact-tittle{
@@ -266,7 +266,7 @@ h2{
 }
 
 input{
-    width: 350px;
+    width: 340px;
     height: 30px;
     padding: 5px 20px 5px 25px;
     border: 1px solid #201e1e;
@@ -406,6 +406,15 @@ footer .platzi-image{
         padding: 0%;
         height: auto;
     }
+
+    /*Reglas que aplican a la seccion de contacto*/
+
+    .contact{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
 }
 
 @media screen and (max-width:480px){
