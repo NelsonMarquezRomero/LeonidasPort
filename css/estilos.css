@@ -352,12 +352,12 @@ footer .platzi-image{
 }
 
 .course{
-    margin-left: 10px;
+    margin-left: 30px;
 
 }
 
 .designer{
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 .designer a{
@@ -484,7 +484,7 @@ footer .platzi-image{
     }
 
     .course{
-        margin-left: 0;
+        margin-left: 5px;
     }
 
     .designer{
@@ -493,7 +493,7 @@ footer .platzi-image{
     }
 
     .course-image{
-        margin-bottom: 10px;
+        margin-left: 5px;
     }
 }
 
@@ -566,5 +566,7 @@ footer .platzi-image{
     .course-image{
         width: 20%;
         height: auto;
+        margin-bottom: 10px;
+        margin-left: 5px;
     }
 }
