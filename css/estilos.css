@@ -444,6 +444,24 @@ footer .platzi-image{
 
 }
 
+@media screen and (max-width:675px){
+
+    /*Reglas que aplican al footer*/
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .course{
+        margin-left: 0;
+    }
+
+    .designer{
+        margin-right: 0;
+    }
+}
+
 @media screen and (max-width:480px){
     /*Reglas CSS que aplican al portafolio de proyectos*/
 
