@@ -429,6 +429,16 @@ footer .platzi-image{
         background-position-x: 25%;
     }
 
+    /* Propiedades CSS que aplican al footer*/
+
+    .course{
+        margin-left: 50px;
+    }
+
+    .designer{
+        margin-right: 50px;
+    }
+
     
 
 }
