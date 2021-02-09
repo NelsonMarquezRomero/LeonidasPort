@@ -417,6 +417,7 @@ footer .platzi-image{
         flex-direction: column;
         align-items: center;
         height: auto;
+        margin-top: 10px;
     }
 
     .form-email{
