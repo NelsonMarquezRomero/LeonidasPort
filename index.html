@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-
+    <i class="icon-menu burger-buttom is-active" id="burger-menu"></i>
     <header>
         <div class="container">
             <figure class="header-logo">
@@ -204,6 +204,19 @@
         </div>
         
     </footer>
-    
+    <script>
+        const menu = document.querySelector('.menu');
+        const burgerButton = document.querySelector('#burger-menu');
+
+        burgerButton.addEventListener('click', hideShow)
+
+        function hideShow() {
+            if (menu.classList.contains('is-active')){
+                menu.classList.remove('is-active');
+            } else {
+                menu.classList.add('is-active');
+            }
+        }
+    </script>
 </body>
 </html>
